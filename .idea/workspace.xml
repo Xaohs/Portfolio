@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cf72326-b105-4cdd-8c50-900bdff3e11a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/animations/animations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/coinGold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/coin2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/mushroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font/superMarioLand.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font/superMarioLand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/platform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/map.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/maps/level1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/maps/level1room1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/maps/level1room2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pack.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/player.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sprites/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sprites/brick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sprites/coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sprites/goomba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sprites/mario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/sprites/rotatingCoin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/tiles/tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/animation-helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/box.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/brick.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/collectible.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/platform.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/portal-destination.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/portal.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/sprite.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/box.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/brick.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/collectible.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/enemy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/goomba.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/mario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/platform.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/portal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/boot-scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/game-scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/hud-scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/menu-scene.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2GxrHz2DauQbzl2FzXmcjX6ptcW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/Portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\julia\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\dev\\Portfolio\\node_modules\\typescript\\lib&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\Portfolio\public\assets" />
+      <recent name="C:\dev\Portfolio\public" />
+      <recent name="C:\dev\Portfolio" />
+      <recent name="C:\dev\Portfolio\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cf72326-b105-4cdd-8c50-900bdff3e11a" name="Changes" comment="" />
+      <created>1667340991200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667340991200</updated>
+      <workItem from="1667340992420" duration="423000" />
+      <workItem from="1667341449588" duration="151000" />
+      <workItem from="1667341617145" duration="3791000" />
+      <workItem from="1667345826509" duration="545000" />
+      <workItem from="1667346387491" duration="105000" />
+      <workItem from="1667346509201" duration="63000" />
+      <workItem from="1667346581632" duration="16000" />
+      <workItem from="1667346607179" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
