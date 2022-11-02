@@ -1,6 +1,7 @@
+import type { FunctionComponent } from "react";
 import { Navlink } from "./Navlink/Navlink";
 
-export const Navbar = () => {
+export const Navbar: FunctionComponent = () => {
   return (
     <header
       className={

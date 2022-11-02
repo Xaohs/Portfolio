@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add62dca-3ff5-49b8-ac26-70d696c109e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +25,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/julian/dev/Portfolio",
+    "last_opened_file_path": "C:/dev/Website_Peter/speedtimer",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\dev\\portfolio\\node_modules\\prettier",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/julian/dev/Portfolio/node_modules/typescript/lib"
+    "ts.external.directory.path": "C:\\dev\\portfolio\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,7 +50,8 @@
       <workItem from="1667405902366" duration="1301000" />
       <workItem from="1667407218518" duration="155000" />
       <workItem from="1667407396359" duration="196000" />
-      <workItem from="1667414408025" duration="122000" />
+      <workItem from="1667407602279" duration="631000" />
+      <workItem from="1667416516677" duration="16000" />
     </task>
     <servers />
   </component>
