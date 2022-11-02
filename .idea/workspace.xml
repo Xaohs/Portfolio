@@ -2,59 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cf72326-b105-4cdd-8c50-900bdff3e11a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/animations/animations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/coinGold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/coin2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/flower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/mushroom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/collectibles/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/superMarioLand.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/superMarioLand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/platform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/map.tmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/maps/level1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/maps/level1room1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/maps/level1room2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/player.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sprites/box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sprites/brick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sprites/coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sprites/goomba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sprites/mario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sprites/rotatingCoin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tiles/tiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/animation-helper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/box.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/brick.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/collectible.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/platform.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/portal-destination.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/portal.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/sprite.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/box.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/brick.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/collectible.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/enemy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/goomba.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/mario.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/platform.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/portal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/boot-scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/game-scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/hud-scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/menu-scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/game.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/helpers/animation-helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/interfaces/box.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/interfaces/brick.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/interfaces/collectible.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/interfaces/platform.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/interfaces/portal-destination.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/interfaces/portal.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/interfaces/sprite.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/box.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/brick.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/collectible.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/enemy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/goomba.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/mario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/platform.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/objects/portal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/scenes/boot-scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/scenes/game-scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/scenes/hud-scene.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_src/scenes/menu-scene.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/animation-helper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/box.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/brick.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/collectible.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/platform.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/portal-destination.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/portal.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/sprite.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/box.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/brick.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/collectible.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/enemy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/goomba.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/mario.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/platform.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/portal.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/boot-scene.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/game-scene.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/hud-scene.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/menu-scene.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +70,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/Portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\julia\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\dev\\Portfolio\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/julian/dev",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\julia\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/opt/webstorm/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\Portfolio\public\assets" />
@@ -112,6 +110,8 @@
       <workItem from="1667346509201" duration="63000" />
       <workItem from="1667346581632" duration="16000" />
       <workItem from="1667346607179" duration="21000" />
+      <workItem from="1667391325011" duration="716000" />
+      <workItem from="1667392051429" duration="22000" />
     </task>
     <servers />
   </component>

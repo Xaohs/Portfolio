@@ -24,7 +24,7 @@ export class MenuScene extends Phaser.Scene {
         this.sys.canvas.width / 2 - 22,
         105,
         "font",
-        "START",
+        "XD",
         8
       )
     );
