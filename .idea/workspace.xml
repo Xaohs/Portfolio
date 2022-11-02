@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add62dca-3ff5-49b8-ac26-70d696c109e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/animations/player.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/collectibles/coinGold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/maps/map.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/maps/map.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/pack.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/sprites/player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tiles/tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/animation-helper.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/box.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/brick.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/collectible.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/platform.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/portal-destination.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/portal.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/sprite.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/box.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/brick.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/collectible.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/enemy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/goomba.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/mario.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/platform.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/portal.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/boot-scene.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/game-scene.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/hud-scene.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/menu-scene.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +20,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\dev\\portfolio\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\dev\\portfolio\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/julian/dev/Portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\dev\\portfolio\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/julian/dev/Portfolio/node_modules/typescript/lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\portfolio\src\app" />
@@ -84,6 +50,7 @@
       <workItem from="1667405902366" duration="1301000" />
       <workItem from="1667407218518" duration="155000" />
       <workItem from="1667407396359" duration="196000" />
+      <workItem from="1667414408025" duration="122000" />
     </task>
     <servers />
   </component>

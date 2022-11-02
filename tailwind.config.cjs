@@ -19,7 +19,7 @@ module.exports = {
           1: "#FBCC41",
         },
         black: {
-          1: "#1A1A1A",
+          1: "rgb(18,18,18)",
           2: "#242424",
         },
         red: {

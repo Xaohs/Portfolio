@@ -17,7 +17,7 @@ export default function RootLayout({
         <link rel="preload" href="/fonts/Souvenir.ttf" as="font" />
       </Head>
 
-      <body className="flex min-h-screen w-full flex-col overflow-x-hidden bg-black-1 font-souvenir text-gray-200">
+      <body className="flex min-h-screen w-full flex-col overflow-x-hidden bg-black-1 font-souvenir text-gray-200 ">
         <div className={"flex h-full flex-1 flex-col text-3xl"}>
           <Navbar />
           <main className="flex flex-1 flex-col">{children}</main>
