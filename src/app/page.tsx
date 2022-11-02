@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Page() {
   return (
     <>
@@ -26,7 +27,17 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="relative -mx-6 mt-6 overflow-hidden p-4 sm:-mx-8 sm:p-8 md:p-10 lg:mt-0 lg:h-[51rem] lg:w-1/2 lg:rounded-l-2xl lg:p-8"></div>
+        <div className="relative -mx-6 mt-6 overflow-hidden p-4 sm:-mx-8 sm:p-8 md:p-10 lg:mt-0 lg:h-[51rem] lg:w-1/2 lg:rounded-l-2xl lg:p-8">
+          <div className="relative h-full w-full">
+            <Image
+              src="/me.jpg"
+              alt="Picture of the author"
+              quality={100}
+              fill={true}
+              className={"object-cover"}
+            />
+          </div>
+        </div>
       </section>
     </>
   );
