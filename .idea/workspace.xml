@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cf72326-b105-4cdd-8c50-900bdff3e11a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/old_src/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/game.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/helpers/animation-helper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/interfaces/box.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/interfaces/brick.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/interfaces/collectible.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/interfaces/platform.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/interfaces/portal-destination.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/interfaces/portal.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/interfaces/sprite.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/box.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/brick.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/collectible.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/enemy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/goomba.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/mario.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/platform.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/objects/portal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/scenes/boot-scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/scenes/game-scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/scenes/hud-scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/scenes/menu-scene.ts" afterDir="false" />
+    <list default="true" id="add62dca-3ff5-49b8-ac26-70d696c109e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/animations/player.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/collectibles/coinGold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/maps/map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/maps/map.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/sprites/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tiles/tiles.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/animation-helper.ts" beforeDir="false" />
@@ -51,8 +36,8 @@
       <change beforePath="$PROJECT_DIR$/src/scenes/game-scene.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/hud-scene.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/menu-scene.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,56 +47,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2GxrHz2DauQbzl2FzXmcjX6ptcW" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="2GzyqFVtllbnikGVfhzxqKDy4GR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/julian/dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\julia\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/opt/webstorm/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\dev\\portfolio\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\dev\\portfolio\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\Portfolio\public\assets" />
-      <recent name="C:\dev\Portfolio\public" />
-      <recent name="C:\dev\Portfolio" />
-      <recent name="C:\dev\Portfolio\src" />
+      <recent name="C:\dev\portfolio\src\app" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2cf72326-b105-4cdd-8c50-900bdff3e11a" name="Changes" comment="" />
-      <created>1667340991200</created>
+      <changelist id="add62dca-3ff5-49b8-ac26-70d696c109e1" name="Changes" comment="" />
+      <created>1667405898326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667340991200</updated>
-      <workItem from="1667340992420" duration="423000" />
-      <workItem from="1667341449588" duration="151000" />
-      <workItem from="1667341617145" duration="3791000" />
-      <workItem from="1667345826509" duration="545000" />
-      <workItem from="1667346387491" duration="105000" />
-      <workItem from="1667346509201" duration="63000" />
-      <workItem from="1667346581632" duration="16000" />
-      <workItem from="1667346607179" duration="21000" />
-      <workItem from="1667391325011" duration="716000" />
-      <workItem from="1667392051429" duration="22000" />
+      <updated>1667405898326</updated>
+      <workItem from="1667405902366" duration="1301000" />
+      <workItem from="1667407218518" duration="155000" />
+      <workItem from="1667407396359" duration="196000" />
     </task>
     <servers />
   </component>
@@ -128,8 +100,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
