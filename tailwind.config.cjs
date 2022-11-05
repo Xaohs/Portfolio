@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        first: "url('/background.png')",
+      },
       fontFamily: {
         futura: ["Futura", "sans-serif"],
         souvenir: ["Souvenir", "sans-serif"],

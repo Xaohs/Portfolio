@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useHorizontalScroll } from "../../hooks/useHorizontalScroll";
+import { Emoji } from "../Emoji/Emoji";
 import { Navbar } from "../Navbar/Navbar";
-
+import { Video } from "../Video/Video";
 const variants = {
   offscreen: { opacity: 0.2, x: 0, y: -1000 },
   onscreen: {
@@ -28,6 +30,8 @@ const variants = {
 };
 
 export const Home = () => {
+  const scrollRef = useHorizontalScroll();
+
   return (
     <>
       <motion.section
@@ -67,7 +71,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <div className="h-10"></div>
+        <div className="h-20"></div>
         <motion.section
           className="mx-auto w-full p-6 md:p-10"
           variants={variants} // Pass the variant object into Framer Motion
@@ -83,12 +87,76 @@ export const Home = () => {
             </h2>
             <div className="h-6"></div>
             <p className="pr-56 text-2xl">
-              Hi! I&apos;m Julian, I like building cool stuff and exploring new
-              technologies and am currently studying Software Developement at
-              Bit Academy Purmerend
+              Hi! I&apos;m Julian, I love building cool stuff and exploring new
+              technologies. I am a very creative person and love to experiment
+              with new ideas and concepts, I am also a very passionate person
+              about my work and I always try to do my best in everything I do.
+              <br />
+              <br /> I am currently studying Software Development at Bit Academy
+              Purmerend, expected to graduate in August 2022. Following that I
+              am planning to continue my studies at the University of Applied
+              Sciences in Amsterdam to further my knowledge even more.
             </p>
           </div>
         </motion.section>
+        <div className="h-20"></div>
+        <motion.section
+          className="mx-auto w-full p-6 md:p-10"
+          variants={variants} // Pass the variant object into Framer Motion
+          initial="hidden" // Set the initial state to variants.hidden
+          animate="visible" // Animated state to variants.enter
+        >
+          <div className="m-auto w-3/4">
+            <h2 className=" w-full font-futura text-7xl font-extrabold text-white">
+              <span className="text-red-1">Background </span>
+              <span className="text-yellow-1">Check? </span>
+              <Emoji label={"eyes"} symbol={"👀"} />
+            </h2>
+            <div className="h-6"></div>
+            <p className="pr-56 text-2xl">
+              I have lived in Spain for seventeen years, where I studied at the
+              IES L&apos;Arabi in Albir (Costa Blanca). I have always been
+              interested in technology and computers, so when I moved the the
+              Netherlands at the age of seventeen I decided to follow that path.
+              I did ICT Support for three years and then I started my Software
+              Development studies at Bit Academy Purmerend. Check out my
+              LinkedIn if you want to know more about my background!
+            </p>
+          </div>
+        </motion.section>
+        <div className="h-20"></div>
+        <motion.section
+          className="sticky top-0 h-[10vh] w-screen bg-black-2"
+          variants={variants} // Pass the variant object into Framer Motion
+          initial="hidden" // Set the initial state to variants.hidden
+          animate="visible" // Animated state to variants.enter
+        >
+          <div className="m-auto w-1/2">
+            <h2 className="w-full font-futura text-7xl font-extrabold text-white">
+              <span className="text-green-1">Some </span>
+              <span>of my </span>
+              <span className="text-blue-1">Work </span>
+              <Emoji label={"work"} symbol={"🧑‍💼"} />
+            </h2>
+            <div className="h-6"></div>
+            <p className="pr-56 text-2xl"></p>
+          </div>
+        </motion.section>
+        <Video src={"/sample.mp4"}>
+          <span>Test</span>
+        </Video>
+        <Video src={"/sample2.mp4"}>
+          <span>Test 2</span>
+        </Video>
+        <div className="h-20"></div>
+        <div
+          className={
+            "m-auto flex w-1/2 flex-row items-center justify-center overflow-auto p-28"
+          }
+          ref={scrollRef}
+        >
+          {/* <Card /> */}
+        </div>
       </motion.section>
     </>
   );
