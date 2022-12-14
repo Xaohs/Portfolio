@@ -30,8 +30,16 @@ export const Navbar: FunctionComponent = () => {
         </Link>
       </Navlink>
       <nav className=" flex w-full justify-end">
-        <Navlink>Projects</Navlink>
-        <Navlink>Contact</Navlink>
+        <Navlink>
+          <a href="#projects">
+            <span>Projects</span>
+          </a>
+        </Navlink>
+        <Navlink>
+          <Link href="mailto:julianroeland@gmail.com" target={"_blank"}>
+            <span>Contact</span>
+          </Link>
+        </Navlink>
       </nav>
     </header>
   );

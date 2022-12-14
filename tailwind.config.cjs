@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
+      extend: {
+          transitionProperty: {
+                'slideIn': 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
+        },
       backgroundImage: {
         first: "url('/background.png')",
       },

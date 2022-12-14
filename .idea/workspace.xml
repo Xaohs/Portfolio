@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="add62dca-3ff5-49b8-ac26-70d696c109e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sample.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/sample.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sample2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/sample2.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,20 +22,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/dev/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\dev\\portfolio\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\dev\\portfolio\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/julian/dev/Portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\dev\\portfolio\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/julian/dev/Portfolio/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\portfolio\src\app" />
@@ -66,6 +67,14 @@
       <workItem from="1667407602279" duration="631000" />
       <workItem from="1667416516677" duration="16000" />
       <workItem from="1667677569158" duration="611000" />
+      <workItem from="1668088456339" duration="23000" />
+      <workItem from="1668088923301" duration="10000" />
+      <workItem from="1670335587725" duration="4000" />
+      <workItem from="1670335597002" duration="24000" />
+      <workItem from="1670335694799" duration="119000" />
+      <workItem from="1670335820004" duration="125000" />
+      <workItem from="1670335950898" duration="23000" />
+      <workItem from="1670335979530" duration="10000" />
     </task>
     <servers />
   </component>
