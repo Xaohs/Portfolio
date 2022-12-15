@@ -1,27 +1,55 @@
 "use client";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { FrontPage } from "../components/FrontPage/FrontPage";
+import { Circles } from "../components/Game/Circles/Circles";
+import type { Score } from "../components/Game/Game";
+import { ColorScores, Game } from "../components/Game/Game";
 import { Home } from "../components/Home/Home";
+import "../styles/globals.css";
 
 const container = {
-  hidden: { opacity: 1, x: 0, y: 0 },
+  hidden: {
+    opacity: 1,
+    x: 0,
+    y: 0,
+    display: "block",
+  },
   enter: {
     opacity: 0,
     x: 0,
     y: 1500,
     transition: {
-      type: "linear",
       duration: 2,
-      delay: 0,
     },
     transitionEnd: {
       display: "none",
     },
   },
-  exit: { opacity: 0, x: 0, y: -300 },
+  exit: {
+    opacity: 0,
+    x: 0,
+    y: -300,
+  },
 };
+
 export default function Page() {
-  const [onHover, setOnHover] = useState(false);
+  const [watchPortfolio, setWatchPortfolio] = useState(false);
+
+  const [playingGame, setPlayingGame] = useState(false);
+
+  const [score, setScore] = useState<Score>({
+    [ColorScores.blue1]: 0,
+    [ColorScores.red2]: 0,
+    [ColorScores.green1]: 0,
+    [ColorScores.yellow1]: 0,
+    [ColorScores.red1]: 0,
+    [ColorScores.blue2]: 0,
+    [ColorScores.pink1]: 0,
+    [ColorScores.pink2]: 0,
+    [ColorScores.yellow2]: 0,
+    [ColorScores.green2]: 0,
+  });
 
   return (
     <>
@@ -29,21 +57,34 @@ export default function Page() {
         className="absolute top-0 flex min-h-screen w-full bg-black-2"
         initial={false}
         variants={container}
-        animate={onHover ? "enter" : "hidden"}
+        animate={watchPortfolio || playingGame ? "enter" : "hidden"}
       >
-        <div
-          className="flex h-full w-full flex-col items-center justify-center"
-          onMouseEnter={() => setOnHover(true)}
-        >
-          <h1 className=" absolute top-1/2 left-1/2 mx-4 -translate-x-1/2 -translate-y-1/2 transform  text-5xl opacity-80 last:mr-0 hover:opacity-100 ">
-            Julian Roeland
-          </h1>
-        </div>
+        {!playingGame && !watchPortfolio && (
+          <FrontPage
+            setWatchPortfolio={setWatchPortfolio}
+            setPlayingGame={setPlayingGame}
+          />
+        )}
       </motion.div>
-      {onHover && (
+      {watchPortfolio && !playingGame && (
         <>
-          <Home />
+          <Home setPlayingGame={setPlayingGame} />
         </>
+      )}
+      {playingGame && (
+        <Game
+          playingGame={playingGame}
+          setPlayingGame={setPlayingGame}
+          score={score}
+          setScore={setScore}
+        />
+      )}
+
+      {playingGame && (
+        <Circles setScore={setScore} playingGame={playingGame} score={score} />
+      )}
+      {!watchPortfolio && !playingGame && (
+        <Circles setScore={setScore} playingGame={playingGame} score={score} />
       )}
     </>
   );
