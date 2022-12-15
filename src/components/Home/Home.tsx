@@ -71,7 +71,7 @@ export const Home = ({
               </div>
             </div>
             <div className="relative mt-8 overflow-hidden sm:-mx-8 sm:p-8 md:p-10 lg:mt-0 lg:h-[51rem] lg:w-1/2 lg:rounded-l-2xl lg:p-8">
-              <div className="relative flex h-96 w-[94vw] justify-center md:h-full md:w-full">
+              <div className="relative flex h-96 min-h-[80vh] w-[94vw] justify-center md:h-full md:w-full">
                 <Image
                   src="/me.jpg"
                   alt="Picture of the author"
@@ -126,9 +126,10 @@ export const Home = ({
             className={`
                        flex w-full
                        justify-center
-                      transition-all delay-200 duration-[1500ms]
+                      overflow-hidden transition-all delay-200
+                      duration-[1500ms]
                       md:p-10
-                      ${secondBoxView ? "translate-x-0" : "translate-x-full"}
+                      ${secondBoxView ? " translate-x-0" : " translate-x-full"}
             
             `}
           >

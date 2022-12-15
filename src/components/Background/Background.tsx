@@ -13,7 +13,7 @@ export const Background: FunctionComponent<IProps> = (props) => {
     <div className="relative z-10 h-fit min-h-[80vh]">
       <div className="flex min-h-[80vh] items-center justify-center">
         {type === "image" && (
-          <div className="min-w-full opacity-50">
+          <div className="relative min-h-[80vh] min-w-full opacity-50">
             <Image src={src} alt="preview" fill />
           </div>
         )}
