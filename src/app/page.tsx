@@ -53,6 +53,10 @@ export default function Page() {
 
   return (
     <>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+      ></meta>
       <motion.div
         className="absolute top-0 flex min-h-screen w-full bg-black-2"
         initial={false}

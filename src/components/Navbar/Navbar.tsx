@@ -13,14 +13,10 @@ export const Navbar = ({
         "flex flex-col items-center justify-between px-6 py-9 text-white  md:flex-row lg:px-12"
       }
     >
-      <div className="flex w-full flex-row justify-center md:justify-start">
-        <div className="flex flex-col text-3xl">
-          <span className=" opacity-80 last:mr-0 hover:opacity-100  ">
-            Julian
-          </span>
-          <span className=" opacity-80 last:mr-0 hover:opacity-100  ">
-            Roeland
-          </span>
+      <div className=" mr-4 flex w-full  flex-row md:justify-start">
+        <div className="mx-4 flex flex-col text-3xl opacity-80  hover:opacity-100">
+          <span className=" last:mr-0   ">Julian</span>
+          <span className=" last:mr-0  ">Roeland</span>
         </div>
         <Navlink>
           <Link
@@ -42,9 +38,10 @@ export const Navbar = ({
         </Navlink>
       </div>
 
-      <nav className=" mt-4 flex w-full justify-center md:mr-4 md:justify-end">
+      <nav className=" mt-4 mr-4 flex w-full md:mr-4 md:justify-end">
         <Navlink>
           <a
+            className="cursor-pointer"
             onClick={() => {
               setPlayingGame(true);
             }}
