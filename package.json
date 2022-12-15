@@ -7,7 +7,7 @@
     "dev": "concurrently \"next dev\" \"tailwindcss --input ./src/styles/globals.css --output ./src/styles/output.css --watch --config tailwind.config.cjs\"",
     "build": "tailwindcss ./src/styles/globals.css --output ./src/styles/output.css --config tailwind.config.cjs && next build",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start -p 3001"
   },
   "dependencies": {
     "framer-motion": "^7.9.1",
