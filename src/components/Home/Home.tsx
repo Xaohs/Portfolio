@@ -176,14 +176,14 @@ export const Home = ({
       <Background src={"/site_preview.mp4"} type="video">
         <div className="flex flex-col items-center justify-center">
           <span>Admin Panel for</span>
-          <Link href="https://test.speedtimerkollektion.com" passHref>
+          <Link href="https://speedtimerkollektion.nl" passHref>
             <span className="text-blue-1">Ecommerce website (WIP)</span>
           </Link>
         </div>
       </Background>
       <Background src={"/site2_preview.png"} type="image">
         <div className="text-center">
-          <Link href="https://test.speedtimerkollektion.com" passHref>
+          <Link href="https://speedtimerkollektion.nl" passHref>
             <span className="text-blue-1">Ecommerce website (WIP) </span>
           </Link>
           <span>to replace the </span>
